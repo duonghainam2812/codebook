@@ -1,0 +1,65 @@
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/bin/Debug/net7.0/appsettings.Development.json
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/bin/Debug/net7.0/appsettings.json
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/bin/Debug/net7.0/ASM4.staticwebassets.runtime.json
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/bin/Debug/net7.0/ASM4
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/bin/Debug/net7.0/ASM4.deps.json
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/bin/Debug/net7.0/ASM4.runtimeconfig.json
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/bin/Debug/net7.0/ASM4.dll
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/bin/Debug/net7.0/ASM4.pdb
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/ASM4.csproj.AssemblyReference.cache
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/ASM4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/ASM4.AssemblyInfoInputs.cache
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/ASM4.AssemblyInfo.cs
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/ASM4.csproj.CoreCompileInputs.cache
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/ASM4.MvcApplicationPartsAssemblyInfo.cache
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/ASM4.RazorAssemblyInfo.cache
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/ASM4.RazorAssemblyInfo.cs
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/staticwebassets/msbuild.ASM4.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/staticwebassets/msbuild.build.ASM4.props
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ASM4.props
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.ASM4.props
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/staticwebassets.build.json
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/staticwebassets.development.json
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/scopedcss/bundle/ASM4.styles.css
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/scopedcss/projectbundle/ASM4.bundle.scp.css
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/ASM4.dll
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/refint/ASM4.dll
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/ASM4.pdb
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/ASM4.genruntimeconfig.cache
+/Users/thang/Library/CloudStorage/OneDrive-Personal/CODE/lap-trinh-web/buoi-4/ASM4/ASM4/obj/Debug/net7.0/ref/ASM4.dll
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\bin\Debug\net7.0\appsettings.json
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\bin\Debug\net7.0\ASM4.staticwebassets.runtime.json
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\bin\Debug\net7.0\ASM4.staticwebassets.endpoints.json
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\bin\Debug\net7.0\ASM4.exe
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\bin\Debug\net7.0\ASM4.deps.json
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\bin\Debug\net7.0\ASM4.runtimeconfig.json
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\bin\Debug\net7.0\ASM4.dll
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\bin\Debug\net7.0\ASM4.pdb
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\ASM4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\ASM4.AssemblyInfoInputs.cache
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\ASM4.AssemblyInfo.cs
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\ASM4.csproj.CoreCompileInputs.cache
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\ASM4.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\ASM4.RazorAssemblyInfo.cache
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\ASM4.RazorAssemblyInfo.cs
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\scopedcss\bundle\ASM4.styles.css
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\scopedcss\projectbundle\ASM4.bundle.scp.css
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\staticwebassets\msbuild.ASM4.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\staticwebassets\msbuild.ASM4.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\staticwebassets\msbuild.build.ASM4.props
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ASM4.props
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ASM4.props
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\ASM4.dll
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\refint\ASM4.dll
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\ASM4.pdb
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\ASM4.genruntimeconfig.cache
+C:\Users\gymer\Downloads\abc (1)\ASM4\ASM4\obj\Debug\net7.0\ref\ASM4.dll

@@ -1,0 +1,149 @@
+﻿@model ASM4.Models.Product
+
+<style>
+    /* Container chính chứa hình ảnh và thông tin sản phẩm */
+    .product-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 30px auto;
+        max-width: 1200px;
+    }
+
+    /* Hình ảnh sản phẩm */
+    .product-image {
+        max-width: 100%;
+        height: auto;
+        max-height: 400px; /* Giới hạn chiều cao hình ảnh */
+        object-fit: cover; /* Đảm bảo hình ảnh không bị vỡ */
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Chi tiết thông tin sản phẩm */
+    .product-details {
+        flex: 1;
+        padding: 0 20px;
+        max-width: 650px;
+    }
+
+    /* Tiêu đề sản phẩm */
+    .product-title {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    /* Tên tác giả và thông tin khác */
+    .product-author {
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        color: #555;
+    }
+
+    /* Giá sản phẩm */
+    .product-info {
+        margin-bottom: 20px;
+    }
+
+        .product-info h4 {
+            font-size: 22px;
+            color: #28a745;
+            font-weight: bold;
+        }
+
+    /* Mô tả sản phẩm */
+    .product-description {
+        margin-top: 20px;
+    }
+
+        .product-description h4 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .product-description p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+            color: #444;
+        }
+
+    /* Nút quay lại danh sách */
+    .back-to-list-btn {
+        background-color: #28a745;
+        color: white;
+        padding: 12px 25px;
+        text-decoration: none;
+        border-radius: 30px;
+        font-weight: bold;
+        display: inline-block;
+        transition: background-color 0.3s, transform 0.3s;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+        .back-to-list-btn:hover {
+            background-color: #218838;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+
+    
+
+    .product-image {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .product-details {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .product-info h4, .product-description h4 {
+        font-size: 18px;
+    }
+
+    .back-to-list-btn {
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    }
+</style>
+
+<div class="product-container">
+
+    <!-- Hình ảnh sản phẩm -->
+    <div class="product-image-container">
+        <img class="product-image" src="@Model.ImageUrl" alt="Product Image" />
+    </div>
+
+    <!-- Chi tiết sản phẩm -->
+    <div class="product-details">
+        <h2 class="product-title">@Model.Title</h2>
+        <h3 class="product-author">Author: @Model.Author</h3>
+        <div class="product-info">
+            <h4>Price: @Model.Price.ToString("N0")₫</h4>
+        </div>
+        <div class="product-description">
+            <h4>Description:</h4>
+            <p>@Model.Description</p>
+        </div>
+    </div>
+
+</div>
+
+<a class="back-to-list-btn" onclick="goBack()">Back to List</a>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>

@@ -1,0 +1,124 @@
+﻿@model ASM4.Models.Product
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Add";
+}
+
+<style>
+    /* Nút Back to List */
+    .back-to-list-btn {
+        background-color: #28a745;
+        color: white;
+        padding: 8px 25px;
+        text-decoration: none;
+        border-radius: 25px;
+        width: auto;
+        font-weight: bold;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+        .back-to-list-btn:hover {
+            background-color: #218838;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+
+    /* Cải thiện kiểu form */
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .form-control {
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+
+    /* Nút Add */
+    .btn-primary {
+        padding: 10px 20px;
+        font-weight: bold;
+        border-radius: 25px;
+    }
+
+    /* Nút Back to List */
+    .btn-back {
+        padding: 8px 20px;
+        font-weight: bold;
+        border-radius: 5px;
+        background-color: #007bff;
+    }
+
+        .btn-back:hover {
+            background-color: #0056b3;
+        }
+
+    .text-danger {
+        font-size: 12px;
+    }
+
+    /* Cải thiện khoảng cách cho form */
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+</style>
+
+<h1 class="text-center my-4">Thêm sản phẩm</h1>
+
+<form asp-action="Add" enctype="multipart/form-data">
+    <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+    <!-- Title -->
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" placeholder="Enter product title" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <!-- Author -->
+    <div class="form-group">
+        <label asp-for="Author"></label>
+        <input asp-for="Author" class="form-control" placeholder="Enter product author" />
+        <span asp-validation-for="Author" class="text-danger"></span>
+    </div>
+
+    <!-- Description -->
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control" placeholder="Enter product description"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <!-- Price -->
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" placeholder="Enter product price" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <!-- Image Upload -->
+    <div class="form-group">
+        <label asp-for="ImageUrl">Image</label>
+        <input type="file" asp-for="ImageUrl" class="form-control" />
+    </div>
+
+    <!-- Submit & Back buttons -->
+    <div class="d-flex justify-content-between mt-4">
+        <button type="submit" class="btn btn-primary">Add Product</button>
+        <button type="button" class="btn back-to-list-btn" onclick="goBack()">Back to List</button>
+    </div>
+</form>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>

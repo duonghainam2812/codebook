@@ -1,0 +1,152 @@
+﻿@model ASM4.Models.Product
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Update";
+}
+
+<style>
+    /* Container chính */
+    .update-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    /* Tiêu đề trang */
+    h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    /* Form-group cho các trường dữ liệu */
+    .form-group {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    /* Các trường nhập liệu */
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-top: 5px;
+    }
+
+    .form-group label {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .form-group textarea {
+        resize: vertical;
+    }
+
+    .form-group span {
+        color: red;
+        font-size: 14px;
+    }
+
+    /* Nút submit */
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+        padding: 12px 25px;
+        font-size: 16px;
+        border-radius: 30px;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+
+    /* Nút quay lại */
+    .back-to-list-btn {
+        background-color: #28a745;
+        color: white;
+        padding: 12px 25px;
+        font-size: 16px;
+        border-radius: 30px;
+        transition: background-color 0.3s, transform 0.3s;
+        margin-top: 20px;
+    }
+
+        .back-to-list-btn:hover {
+            background-color: #218838;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+
+    /* Responsive */
+    
+    
+    .btn-primary, .back-to-list-btn {
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .form-group input, .form-group textarea {
+        width: 100%;
+    }
+
+    }</style>
+
+<div class="update-container">
+    <h2>Edit Product</h2>
+    <form asp-action="Update" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="form-group">
+            <label asp-for="Title">Title</label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Author">Author</label>
+            <input asp-for="Author" class="form-control" />
+            <span asp-validation-for="Author" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description">Description</label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Price">Price</label>
+            <input asp-for="Price" class="form-control" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ImageUrl">New Image</label>
+            <input type="file" asp-for="ImageUrl" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+
+    <button class="back-to-list-btn" onclick="goBack()">Back to List</button>
+</div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
